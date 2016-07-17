@@ -4,7 +4,7 @@ using System.Collections;
 public class Character : MonoBehaviour
 {
 	Movement movement;
-	public Weapon weapon;
+	// public Weapon weapon;
 
 	void Awake ()
 	{
@@ -18,9 +18,9 @@ public class Character : MonoBehaviour
 
 	public void RecieveFireInput (bool fire1)
 	{
-		if (fire1)
-		{
-			weapon.RecieveFireInput();
-		}
+		// if (fire1)
+		// {
+		// 	weapon.RecieveFireInput();
+		// }
 	}
 }

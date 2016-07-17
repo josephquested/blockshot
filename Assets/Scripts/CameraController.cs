@@ -3,7 +3,7 @@ using System.Collections;
 
 public class CameraController : MonoBehaviour {
 	Transform target;
-	float distance = 5;
+	public bool trackPlayer;
 
 	void Start ()
 	{
@@ -12,10 +12,13 @@ public class CameraController : MonoBehaviour {
 
 	void FixedUpdate ()
 	{
-		transform.position = new Vector3(
+		if (trackPlayer)
+		{
+			transform.position = new Vector3(
 			target.position.x,
 			10,
-			target.position.z - distance
-		);
+			target.position.z
+			);
+		}
 	}
 }
