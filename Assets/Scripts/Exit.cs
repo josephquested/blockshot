@@ -30,7 +30,7 @@ public class Exit : MonoBehaviour {
 		GameObject[] orbsArr = GameObject.FindGameObjectsWithTag("Orb");
 		for (int i = 0; i < orbsArr.Length; i++)
 		{
-			orbs.Add(icon);
+			orbs.Add(orbsArr[i]);
 		}
 	}
 
