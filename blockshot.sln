@@ -1,7 +1,7 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{784B4035-8666-5F13-CD0E-2BC212F994F9}") = "blockshot", "Assembly-CSharp.csproj", "{02827640-4AF3-59C7-00C7-CBA88A9DEE46}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blockshot", "Assembly-CSharp.csproj", "{02827640-4AF3-59C7-00C7-CBA88A9DEE46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
