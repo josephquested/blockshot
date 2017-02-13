@@ -31,7 +31,6 @@ public class Spawner : MonoBehaviour {
 
 	void Spawn (Vector3 spawnPosition)
 	{
-		print(spawnPosition);
 		var spawnedObj = Instantiate(spawnPrefab, spawnPosition, transform.rotation);
 		StartCoroutine(CooldownRoutine());
 	}
